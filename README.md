@@ -1,60 +1,14 @@
-# mug
+# Creative Theme for Jekyll
 
-Jekyll theme
+A Jekyll implementation of the [Creative Theme](http://startbootstrap.com/template-overviews/creative/) template by [Start Bootstrap](http://startbootstrap.com).
 
-> :warning:
-  This theme requires ruby and rubygems installed
+Creative is a one page Bootstrap theme for creatives, small businesses, and other multipurpose uses.
+The theme includes a number of rich features and plugins that you can use as a great boilerplate for your next Jekyll project! 
 
-* [x] Clean layout
-* [x] Resposive layout
-* [x] Preprocessor SASS
-* [x] CSS minified
-* [x] Search posts
-* [x] Pagination
-* [x] Syntax highlight
-* [x] Author config
-* [x] Share posts
-* [x] Comments with Disqus
+See it live in action at <https://volny.github.io/creative-theme-jekyll/>
 
----
+## To use the Creative Theme template in your project
 
-### Start in 4 steps
+- Start by adding your info in `_config.yml`
+- In `_layouts/front.html` reorder or remove section as you prefer.
 
-1. Download or clone repo `git clone git@github.com:nandomoreirame/mug.git`
-2. Enter the folder: `cd mug/`
-3. Install Ruby gems: `bundle install`
-4. Start Jekyll server: `jekyll serve`
-
-Access, [localhost:4000/mug](http://localhost:4000/mug)
-
-### Deploy in Github pages in 2 steps
-
-1. Change the variables `GITHUB_REPONAME` and `GITHUB_REPO_BRANCH` in `Rakefile`
-2. Run `rake` or `rake publish` for build and publish on Github
-
----
-
-### Using Rake tasks
-
-* Create a new page: `rake page name="contact.md"`
-* Create a new post: `rake post title="TITLE OF THE POST"`
-
----
-
-### Demo and Download
-
-[Demo](http://nandomoreira.me/mug/)
-[Download](https://github.com/nandomoreirame/mug/archive/master.zip)
-
-![mug - free Jekyll theme](/screenshot.png)
-
----
-
-### Copyright and license
-
-It is under [the MIT license](/LICENSE).
-
-> :warning:
-  Please remove metas `<meta name="robots" content="noindex">` and `<meta name="googlebot" content="noindex">` in `_layouts/default.html`
-
-Enjoy :yum:
